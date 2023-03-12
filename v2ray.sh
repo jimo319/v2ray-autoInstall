@@ -161,7 +161,7 @@ create_vmess_URL_config() {
 		cat >/etc/v2ray/vmess_qr.json <<-EOF
 			{
 				"v": "2",
-				"ps": "233v2.com_${domain}",
+				"ps": "报名学IT找老董",
 				"add": "${domain}",
 				"port": "443",
 				"id": "${v2ray_id}",
@@ -182,7 +182,7 @@ create_vmess_URL_config() {
 		cat >/etc/v2ray/vmess_qr.json <<-EOF
 			{
 				"v": "2",
-				"ps": "233v2.com_${ip}",
+				"ps": "报名学IT找老董",
 				"add": "${ip}",
 				"port": "${v2ray_port}",
 				"id": "${v2ray_id}",
