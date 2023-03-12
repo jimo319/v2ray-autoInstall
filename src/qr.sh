@@ -4,7 +4,7 @@ _qr_create() {
 	else
 		local vmess="vmess://$(cat /etc/v2ray/vmess_qr.json | base64 -w 0)"
 	fi
-	local link="https://233boy.github.io/tools/qr.html#${vmess}"
+	local link="http://oss.52studyit.net/createVmessQr/qr.html#${vmess}"
 	echo
 	echo "---------- V2Ray 二维码 -------------"
 	echo
