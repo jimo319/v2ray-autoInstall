@@ -1,5 +1,5 @@
 # 即墨教程：在线安装
-bash <(curl -sL https://raw.githubusercontent.com/jimo319/v2ray-rootmelo92118/master/install.sh)
+bash <(curl -sL https://raw.githubusercontent.com/jimo319/v2ray-autoInstall/master/install.sh)
 
 # v2ray
 最好用的 V2Ray 一键安装脚本 &amp; 管理脚本
