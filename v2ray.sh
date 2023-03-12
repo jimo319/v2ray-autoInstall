@@ -161,7 +161,7 @@ create_vmess_URL_config() {
 		cat >/etc/v2ray/vmess_qr.json <<-EOF
 			{
 				"v": "2",
-				"ps": "报名学IT找老董",
+				"ps": "Study_IT",
 				"add": "${domain}",
 				"port": "443",
 				"id": "${v2ray_id}",
@@ -175,14 +175,14 @@ create_vmess_URL_config() {
 		EOF
 	elif [[ $v2ray_transport == 33 ]]; then
 		cat >/etc/v2ray/vmess_qr.json <<-EOF
-			vless://${v2ray_id}@${domain}:443?encryption=none&security=tls&type=ws&host=${domain}&path=${_path}#233v2_${domain}
+			vless://${v2ray_id}@${domain}:443?encryption=none&security=tls&type=ws&host=${domain}&path=${_path}#Study_IT_${domain}
 		EOF
 	else
 		[[ -z $ip ]] && get_ip
 		cat >/etc/v2ray/vmess_qr.json <<-EOF
 			{
 				"v": "2",
-				"ps": "报名学IT找老董",
+				"ps": "Study_IT",
 				"add": "${ip}",
 				"port": "${v2ray_port}",
 				"id": "${v2ray_id}",
